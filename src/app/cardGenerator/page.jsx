@@ -1,9 +1,11 @@
 import React from 'react'
+import ContainCards from '../galleryCards/ContainCards'
+import ContainGeneratorCard from './ContainGeneratorCard'
 
 const CardGenerator = () => {
   return (
-    <div>
-      generadaor de cartas
+    <div className='m-auto'>
+      <ContainGeneratorCard/>
     </div>
   )
 }
