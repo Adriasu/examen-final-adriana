@@ -19,35 +19,35 @@ const SideBar = () => {
       <div className=" flex flex-col mt-14 gap-20">
         <ul className="flex flex-col gap-5">
           <Link href={"/cardGenerator"}>
-            <div className="flex gap-5">
+            <div className="flex gap-5 text-gray-700 hover:text-black hover:scale-[1.05]">
               <IdCard />
               <li>Card Generator</li>
             </div>
           </Link>
 
           <Link href={"/digitalClock"}>
-            <div className="flex gap-5">
+            <div className="flex gap-5 text-gray-700 hover:text-black hover:scale-[1.05]">
               <Clock />
               <li>Digital Clock</li>
             </div>
           </Link>
 
           <Link href={"/drilingInfo"}>
-            <div className="flex gap-5">
+            <div className="flex gap-5 text-gray-700 hover:text-black hover:scale-[1.05]">
               <HardDriveDownload />
               <li>Driling Info</li>
             </div>
           </Link>
 
           <Link href={"/galleryCards"}>
-            <div className="flex gap-5">
+            <div className="flex gap-5 text-gray-700 hover:text-black hover:scale-[1.05]">
               <GalleryHorizontalEnd />
               <li>Galeria de Cartas</li>
             </div>
           </Link>
         </ul>
         <Link href={"/"}>
-          <button className="bg-cyan-700 px-4 py-2 rounded-md font-bold text-white">
+          <button className="bg-cyan-700 px-4 py-2 rounded-md font-bold text-white hover:scale-[1.05] hover:bg-cyan-600">
             Inicio
           </button>
         </Link>
