@@ -1,9 +1,10 @@
+import PageStart from '@/components/PageStart'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>
-      Principal
+    <div className='m-auto'>
+      <PageStart/>
     </div>
   )
 }
