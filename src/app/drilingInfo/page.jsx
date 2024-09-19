@@ -1,9 +1,10 @@
 import React from 'react'
+import ComponentA from './ComponentA'
 
 const DrilingInfo = () => {
   return (
-    <div>
-      driling info
+    <div className='m-auto'>
+      <ComponentA/>
     </div>
   )
 }
