@@ -1,7 +1,7 @@
 "use client";
 import React, {useState, useEffect} from 'react'
 import CardProduct from './CardProduct';
-import Link from 'next/link';
+
 
 const ContainCards = () => {
 
