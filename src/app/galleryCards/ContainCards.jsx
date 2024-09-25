@@ -14,23 +14,28 @@ const ContainCards = () => {
 
   if (isPending) {
     return (
-      <div className="flex flex-wrap w-[1200px] gap-6">
-        {[...new Array(8)].map((_, index) => {
-          return (
-            <div
-              key={index}
-              className=" animate-pulse w-[282px] h-[391.39px] border flex flex-col items-center justify-center rounded-lg border-solid border-[#E3DED7]"
-            >
-              <div className="w-56 h-56 bg-gray-200 rounded-full"></div>
-              <div className="flex flex-col justify-center items-center gap-3 mt-4">
-                <div className="h-4 bg-gray-200 rounded w-3/4"></div>
-                <div className="h-4 bg-gray-200 rounded w-1/2"></div>
+      <section className="p-10 flex flex-col justify-center items-center">
+        <h2 className="text-2xl font-medium text-[#2A5B45] leading-7 mb-5">
+          Últimos orígenes
+        </h2>
+        <div className="flex flex-wrap w-[1200px] gap-6">
+          {[...new Array(8)].map((_, index) => {
+            return (
+              <div
+                key={index}
+                className=" animate-pulse w-[282px] h-[391.39px] border flex flex-col items-center justify-center rounded-lg border-solid border-[#E3DED7]"
+              >
+                <div className="w-56 h-56 bg-gray-200 rounded-full"></div>
+                <div className="flex flex-col justify-center items-center gap-3 mt-4">
+                  <div className="h-4 bg-gray-200 rounded w-3/4"></div>
+                  <div className="h-4 bg-gray-200 rounded w-1/2"></div>
+                </div>
+                <div className="mt-4 h-9 bg-gray-200 rounded"></div>
               </div>
-              <div className="mt-4 h-9 bg-gray-200 rounded"></div>
-            </div>
-          );
-        })}
-      </div>
+            );
+          })}
+        </div>
+      </section>
     );
   }
 
