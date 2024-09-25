@@ -25,12 +25,12 @@ const ContainCards = () => {
                 key={index}
                 className=" animate-pulse w-[282px] h-[391.39px] border flex flex-col items-center justify-center rounded-lg border-solid border-[#E3DED7]"
               >
-                <div className="w-56 h-56 bg-gray-200 rounded-full"></div>
+                <div className="w-56 h-56 bg-gray-200 rounded"></div>
                 <div className="flex flex-col justify-center items-center gap-3 mt-4">
-                  <div className="h-4 bg-gray-200 rounded w-3/4"></div>
+                  <div className="h-4 bg-gray-200 rounded w-[100px]"></div>
                   <div className="h-4 bg-gray-200 rounded w-1/2"></div>
                 </div>
-                <div className="mt-4 h-9 bg-gray-200 rounded"></div>
+                <div className="mt-4 h-9 w-[59px] bg-gray-200 rounded"></div>
               </div>
             );
           })}
