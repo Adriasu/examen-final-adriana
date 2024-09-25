@@ -36,8 +36,6 @@ const ContainCards = () => {
 
   if (error) return "An error has occurred: " + error.message;
 
-  console.log(data);
-
   // const [dataCoffee, setDataCoffee] = useState([]);
 
   // const fetchCoffeeData = async () => {
