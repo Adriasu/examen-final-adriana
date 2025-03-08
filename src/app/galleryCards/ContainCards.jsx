@@ -26,7 +26,7 @@ const ContainCards = () => {
         fetchCoffeeData();
       }, []);
 
-      console.log(dataCoffee);
+
       
   return (
     <section
