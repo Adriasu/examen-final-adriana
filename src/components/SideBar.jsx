@@ -9,7 +9,7 @@ import React from "react";
 
 const SideBar = () => {
   return (
-    <div className="border border-black w-[300px] min-h-screen p-6 ">
+    <div className="border border-black w-[300px] sticky top-0 min-h-screen p-6 ">
       <div className="flex items-center">
         <div className="bg-orange-600 text-white py-1 px-1 rounded-full flex flex-col w-[100px]">
           <p className="font-bold text-center">Examen Final</p>
